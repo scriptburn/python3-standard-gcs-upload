@@ -1,0 +1,8 @@
+[
+    {
+      "origin": ["https://<you-project>.appspot.com", "http://localhost:8081", "http://127.0.0.1:8081"],
+      "responseHeader": ["Content-Type","x-requested-with"],
+      "method": ["GET", "HEAD", "DELETE", "PUT", "POST", "OPTIONS"],
+      "maxAgeSeconds": 3600
+    }
+]

@@ -1,0 +1,13 @@
+runtime: python37
+env_variables:
+  SERVICE_JSON_FILE: 'crack-lacing-234615-2ee243186966.json'
+handlers:
+
+
+  - url: /static
+    static_dir: public
+
+  - url: /.*
+    secure: always
+    redirect_http_response_code: 301
+    script: auto  
